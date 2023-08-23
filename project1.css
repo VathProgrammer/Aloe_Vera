@@ -1,0 +1,2012 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&family=Roboto+Slab&display=swap');
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important; */
+}
+
+::selection {
+    
+    background: rgba(0, 128, 0, 0.249);
+  }
+
+.main-header{
+
+    height:   90vh;
+    background-image: url(Image/background-head1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    padding: 0;
+    margin: 0;  
+  
+
+}
+.shadow-back{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .6;
+}
+.head{
+    width: 100%;
+    height: 50px;
+    padding: 30px 0;
+    
+    /* background-color: red; */
+
+}
+.main-header .shadow-back .head .box-row .box-left i{
+    display: none;
+}
+
+h1{
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 100;
+    font-size: 1.7rem;
+    margin-left: 3rem;
+
+}
+
+
+
+.main-header .shadow-back .head .box-row .box-right .box-ul{
+    display: flex;
+    list-style-type: none;
+}
+.main-header .shadow-back .head .box-row .box-right .box-ul li a{
+    /* display: none; */
+    text-decoration: none;
+    color: white;
+    font-size: .9em;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    /* padding: 1px 15px; */
+    margin-left: 15px;
+    letter-spacing: 1px;
+    position: relative;
+    
+}
+    /* Hover Underline */
+
+    .main-header .shadow-back .head .box-row .box-right .box-ul li a:before{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        left: 0;
+        bottom: 0;
+        background-color: white;
+        visibility: hidden;
+        transition: all 0.25s ease-in-out;
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul li a:hover::before{
+        visibility: visible;
+        width: 100%;
+    }
+
+.main-header .shadow-back .head .box-row .box-right .box-ul li a i{
+    color: white;
+    font-size: 1rem;
+}
+
+.main-header .shadow-back .head .box-row .box-right .box-ul .right-li .right-a{
+    display: none;
+
+}
+.main-header .shadow-back .head .box-row .box-right .box-ul .right-li i{
+    display: none;
+}
+
+      /* The middle of page */
+      .middle-main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .middle-main  .middle-center .welcome .up{
+        color: rgb(255, 254, 254);
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: sans-serif;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        line-height: 3rem;
+      
+        
+      }.middle-main  .middle-center .welcome {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .middle-main  .middle-center .Bring .mid{
+        color: white;
+        font-size: 4.5rem;
+        font-family: 'Unna',serif;
+        line-height: 1.1em;
+        font-weight: 500;
+      }
+      .middle-main  .middle-center .Home{
+        display: flex;
+        justify-content: center;
+        
+      }
+      .middle-main  .middle-center .Home .down{
+        color: white;
+        font-size: 3.5rem;
+        font-family: 'Unna',serif;
+        line-height: 1.1em;
+      }
+
+      .middle-main  .middle-center .Shop_now{
+        display: flex;
+        justify-content: center;
+      }
+      .middle-main  .middle-center .Shop_now input{
+        padding: 10px 23px;
+        color: black;
+        background-color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        margin-top: 2rem;
+      }
+      .middle-main  .middle-center .Shop_now input:hover{
+        transform: scale(.9);
+
+      }
+
+      /* the below NEw plants and Shop Now */
+
+      .Main_container{
+        height: 20vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .New_plants{
+        color: black;
+        font-weight: 200;
+        font-family: 'Unna',serif;
+        font-size: 2.3rem;
+      }st
+    .Main_shop input{
+        padding: 10px 15px;
+        background-color: green;
+        outline: none;
+        border: none;
+        color: white;
+        font-family: 'Unna',serif;
+    }
+    .Main_shop input:hover{
+        background-color: darkgray;
+    }
+        /* Add Items of product */
+
+        .main-container{
+            padding: 5rem;
+            display: flex;
+            justify-content: center;
+            /* background-color: red; */
+        }
+        .main-container .box-row .box-col-first{
+            width: 400px;
+            height:600px
+        }
+
+        .main-container .box-row .box-col-first img{
+            width: 100%;
+            height: 100%;
+        }
+        .main-container .box-row-2 .box-col-2{
+            width: 400px;
+            height:600px;
+        }.main-container .box-row-2 .box-col-2 img{
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Star five */
+        .main-container .box-row .box-col-first .star{
+            width: .8rem;
+            
+            
+        } 
+        .main-container .box-row-2 .box-col-2 .star{
+            width: .8rem;
+          
+        }
+        
+        .main-container .box-row .box-col-first .name-pro{
+            font-size: 1rem;
+            font-family: 'Unna',serif;
+            font-weight: 400;
+        }
+        .main-container .box-row .box-col-first  .place-wear{
+            font-size: .9rem;
+            font-weight: bold;
+            font-family: 'Unna',serif;
+            color: grey;
+            opacity: .8;
+        }
+        .main-container .box-row .box-col-first .price{
+            font-size: 1.1rem;
+            font-weight: 600;
+            font-family: 'Unna',serif;
+            letter-spacing: 1px;
+
+        }
+        /* Two page */
+
+    
+
+
+        /* A Girl with aloe vera */
+        .box-girl {
+            padding: 0;
+            margin: 0;
+        }
+        .box-girl .girl-row{
+            padding: 0;
+            margin: 0;
+            margin-top: 8rem;
+           
+            display: flex;
+            position: relative;
+        }
+        .box-girl .the-girl{
+           width: 45rem;
+           height:33rem;
+        }
+        .box-girl .the-girl img{
+            width: 100%;
+            height: 100%;
+        }
+        .box-girl .read-more{
+            padding: 100px;
+            padding-left: 80px;
+            padding-right: 70px;
+        }
+
+        /* content of paragrap */
+
+        .box-girl  .read-more .our-story{
+            font-size: 1.2rem;
+            font-weight: 100;
+            font-family:'Unna',serif;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .box-girl  .read-more  .people{
+            color: black;
+            padding: 0;
+            margin: 0;
+            font-size: 1.6rem;
+            font-weight: 600;
+            font-family:'Unna',serif;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            line-height: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .box-girl  .read-more .viva{
+            font-size: 1.05rem;
+            font-family: 'Unna',serif ;
+            font-weight: 300;
+
+        }
+        .box-girl  .read-more .eu{
+            font-size: 1.05rem;
+            font-family: 'Unna',serif ;
+            font-weight: 300;
+        }
+        .box-girl  .read-more  input{
+            margin-top: 2rem;
+            padding: 10px 20px;
+            color:white;
+            background-color: rgba(0, 128, 0, 0.642);
+            outline: none;
+            border: none;
+            color: white;
+            font-size: .9rem;
+            font-weight: 600;
+        }
+        .box-girl  .read-more  input:hover{
+            background-color: #69727d;
+        }
+
+
+   /* the customers say */
+
+   .box-customers{
+    margin-top: 5rem;
+   }
+   .box-customers  .customers{
+    display: flex;
+    justify-content: center;
+   }
+   .box-customers   .customers h1{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Unna',serif  ;
+    
+   }
+   .box-customers  .line{
+    
+    display: flex;
+    justify-content: center;
+
+   }
+    .box-customers .cus-row  .col-box-cum .quate-left{
+    display: flex;
+    justify-content: center;
+    }
+    .box-customers .cus-row  .col-box-cum .quate-left i{
+    color: rgba(0, 128, 0, 0.27);
+    font-size: 2rem;
+
+    }
+    .box-customers .cus-row  .col-box-cum .cus-pa{
+        text-align: center;
+        font-size: 1.2rem;
+       font-weight: 450;
+    }
+
+    .box-customers .cus-row  .col-box-cum  .cus-image{
+        display: flex;
+        justify-content: center;
+    }
+    .box-customers .cus-row  .col-box-cum  .cus-image img{
+        border-radius: 50px;
+    }
+    .box-customers .cus-row  .col-box-cum .box-name-cus{
+        display: flex;
+        justify-content: center;
+    }
+    .box-customers .cus-row  .col-box-cum .box-name-cus .name-cus{
+        color:#534F48;
+        font-size: .8rem ;
+        margin-top: 15px;
+        font-family: 'Unna',serif ;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .box-customers .cus-row  .col-box-cum {
+        padding-top: 0;
+    }
+
+        /* the container two of page and gift */
+
+        .main-gift {
+            width: 100%;
+            height: 80vh;
+            background-image: url(Image/Background-image1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding: 0;
+           
+        }
+        .main-gift .the-pop{
+          
+           width: 100%;
+           height: 100%;
+           background-color:black;
+           opacity: .3;
+           /* z-index: -1000; */
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .main-gift .the-pop   .main-box-gift  {
+           /* background-color: black; */
+           
+        }
+        .main-gift .the-pop   .main-box-gift .main-gift-card{
+         
+
+        }
+        .main-gift .the-pop   .main-box-gift   .gift-card{
+            font-size: 1.3rem;
+            font-weight: 200;
+            font-family:  'Unna',serif ;
+            letter-spacing: 1px;
+            color: #ffffff;
+            text-transform: uppercase;
+            text-align: center;
+            /* background-color: black; */
+        }
+
+        .main-gift .the-pop   .main-box-gift   .Give-the-gift .give{
+            text-align: center;
+            font-size: 4.5rem;
+            font-weight: 500;
+            font-family: 'Unna',serif ;
+            letter-spacing: 1px;
+            color: white;
+
+        }
+        .main-gift .the-pop   .main-box-gift .totor .gift-para{
+
+            text-align: center;
+            color: white;
+            font-size: 1rem;
+            
+
+        }
+        .main-gift .the-pop   .main-box-gift .purchese{
+            display: flex;
+            justify-content: center;
+        }
+        .main-gift .the-pop   .main-box-gift .purchese input{
+            margin-top: 10px;
+            padding: 13px 35px;
+            font-size: .8rem;
+            font-weight: bold;
+            color: #000;
+            background-color: #ffffff;
+            outline: none;
+            border: none;
+            cursor: pointer;
+           
+            
+        }
+
+        /* the delivery container */
+
+        .last-contain{
+            display: flex;
+            justify-content: center;
+        }
+        .last-contain .box-last-contain .last-col-contain{
+            display: flex;
+        }
+        .last-contain .box-last-contain .last-col-contain i{
+            color: white;
+            background-color:#5C9735;
+            width: 50px;
+            height:50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+        }
+        .last-contain .box-last-contain .last-col-contain .secure{
+            padding: 0 10px;
+        }
+        .last-contain .box-last-contain .last-col-contain .secure .sec{
+            color: black;
+            font-size: 1.2rem;
+            font-weight: 200;
+            font-family: 'Unna',serif;
+            letter-spacing: 2px;
+            padding: 0;
+            margin: 0;
+        }
+        .last-contain .box-last-contain .last-col-contain .secure  .cura{
+            font-size: .9rem;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        /* the footer */
+
+        .box-footer{
+            width: 100%;
+            height: 80vh;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:#141A0F;
+        }
+        .box-footer .center-footer{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .box-footer .center-footer .footer-ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 7rem 0 3rem 0; 
+           
+        }
+    .box-footer .center-footer .footer-ul .footer-li {
+           
+            margin-left: 3rem;
+    } 
+    .box-footer .center-footer .footer-ul .footer-li .footer-a{
+            text-decoration: none;
+            font-size: .9rem;
+            font-weight: 100;
+            font-family: 'Unna',serif;
+            color: white;
+           
+
+        }
+        .box-footer .center-footer .footer-h1{
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Unna',serif;
+            font-weight: 500;
+            letter-spacing: 1px;
+            line-height: 3.5rem;
+        }
+        .box-footer .center-footer  .footer-input{
+            margin-bottom: 3rem;
+            display: flex;
+            justify-content: center;
+        }
+        .box-footer .center-footer  .footer-input input[type=text]{
+            width: 25rem;
+            height:3.2rem;
+            border-radius: 2px;
+            outline: none;
+            border: none;
+            padding: 0 5px;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: 'Unna',serif;
+        } 
+        .box-footer .center-footer  .footer-input input[type=submit]{
+            padding: 6px 45px;
+            margin-left: 10px;
+            background-color: #5C9735;
+            border: none;
+            outline: none;
+            color: white;
+
+        }
+        .box-footer .center-footer  .footer-input input[type=submit]:hover{
+            background-color: grey;
+        }
+        
+        .box-footer .center-footer  .footer-icon{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .box-footer .center-footer  .footer-icon .footer-icon-a i{
+            color: white;
+            margin-left: 2rem;
+            opacity: .7;
+        }
+          /* the line */
+        
+        .box-footer .center-footer  .the-lastest{
+            color: gray;
+            display: flex;
+            justify-content: center;
+            margin-top: 2.5rem;
+            border-top: 1px solid rgba(128, 128, 128, 0.375);
+            padding: 3.5rem 0px 0px 0px;
+            margin: 0;
+        }
+  /* Media and responsive */
+
+ /* ! Extra small devices (portrait phones, less than 576px)  */
+@media only screen and  (max-width: 575.98px) {
+    .main-header .shadow-back .head .box-row .box-left{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-evenly; */
+        position: relative;
+
+    }
+    .main-header .shadow-back .head .box-row .box-left i{
+        display: block;
+        color: white;
+        font-size: 1rem;
+        position: absolute;
+        left: 10%;
+        top: 10px;
+    }
+    .main-header .shadow-back .head .box-row .box-left h1{
+            font-size: .9rem;
+            position: absolute;
+            right: 15%;
+            /* left: 0; */
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul li a{
+        display: none;
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul li a i{
+        display: block;
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul .right-li i{
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-top: 13px;
+       
+        padding: 0;
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul .right-li .right-a{
+        display: block;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+
+    .col-small-right{
+        display: flex;
+    }
+    .middle-main  .middle-center .welcome .up{
+        color: white;
+        font-size: .7rem;
+        font-weight: 500;
+        font-family: sans-serif;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        line-height: 3rem;
+      
+        
+      }
+
+
+    .middle-main  .middle-center .Bring .mid{
+        color: white;
+        font-size: 1.8rem;
+
+        font-family: 'Unna',serif;
+        line-height: 1.1em;
+        font-weight: bold;
+      }
+      .middle-main  .middle-center .Home .down{
+        color: white;
+        font-size:  1.8rem;
+        font-weight: bold;
+        font-family: 'Unna',serif;
+        line-height: 1.1em;
+      }
+      
+      /* the shop now */
+      .Main_container{
+        height: 20vh;
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        
+      }
+      .New_plants{
+        color: black;
+        font-weight: 200;
+        font-family: 'Unna',serif;
+        font-size: 2.3rem;
+        margin: 0;
+      }
+    .Main_shop input{
+        padding: 10px 15px;
+        background-color: green;
+        outline: none;
+        border: none;
+        color: white;
+        font-family: 'Unna',serif;
+        margin-left: 3rem;
+    }
+    .Main_shop input:hover{
+        background-color: darkgray;
+    }
+
+
+      /* add items to the page */
+
+      .main-container{
+        display: flex;
+        justify-content: center;
+        
+        margin: 0;
+        padding: 0;
+        
+    }
+    .main-container .box-row{
+        margin-left: 1rem;
+    }
+    .main-container .box-row .box-col-first{
+        width: 190px;
+        height:330px;
+    }
+
+    .main-container .box-row .box-col-first img{
+        width: 100%;
+        height: 100%;
+    }
+    .main-container .box-row-2 .box-col-2{
+        width: 180px;
+        height:280px;
+    }.main-container .box-row-2 .box-col-2 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Star five */
+    .main-container .box-row .box-col-first .star{
+        width: .8rem;
+        
+        
+    } 
+    .main-container .box-row-2 .box-col-2 .star{
+        width: .8rem;
+      
+    }
+    
+    .main-container .box-row .box-col-first .name-pro{
+        font-size: 1rem;
+        font-family: 'Unna',serif;
+        font-weight: 400;
+    }
+    .main-container .box-row .box-col-first  .place-wear{
+        font-size: .9rem;
+        font-weight: bold;
+        font-family: 'Unna',serif;
+        color: grey;
+        opacity: .8;
+    }
+    .main-container .box-row .box-col-first .price{
+        font-size: 1.1rem;
+        font-weight: 600;
+        font-family: 'Unna',serif;
+        letter-spacing: 1px;
+
+    }
+  /* A Girl with aloe vera */
+
+  .box-girl{
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-top: 8rem;
+    
+}
+.box-girl .the-girl{
+   width: 100%;
+   height: 100%;
+}
+.box-girl .the-girl img{
+   width: 100%;
+   height: 100%;
+}
+.box-girl .read-more{
+    padding: 15px;
+    padding-left: 1.1rem;
+    padding-right: 4px;
+}
+
+/* content of paragrap */
+
+.box-girl  .read-more .our-story{
+    font-size: .9rem;
+    font-weight: 100;
+    font-family:'Unna',serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.box-girl  .read-more  .people{
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 550;
+    font-family:'Unna',serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+.box-girl  .read-more .viva{
+    font-size: 1.05rem;
+    font-family: 'Unna',serif ;
+    font-weight: 300;
+
+}
+.box-girl  .read-more .eu{
+    font-size: 1.05rem;
+    font-family: 'Unna',serif ;
+    font-weight: 300;
+}
+.box-girl  .read-more  input{
+    margin-top: 2rem;
+    padding: 10px 20px;
+    color:white;
+    background-color: rgba(0, 128, 0, 0.642);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.box-girl  .read-more  input:hover{
+    background-color: #69727d;
+}
+
+
+
+   /* the customers say */
+
+   .box-customers{
+    margin-top: 5rem;
+   }
+   .box-customers  .customers{
+    display: flex;
+    justify-content: center;
+   }
+   .box-customers   .customers h1{
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Unna',serif  ;
+    
+   }
+   .box-customers  .line{
+    
+    display: flex;
+    justify-content: center;
+
+   }
+    .box-customers .cus-row  .col-box-cum .quate-left{
+    display: flex;
+    justify-content: center;
+    }
+    .box-customers .cus-row  .col-box-cum .quate-left i{
+    color: rgba(0, 128, 0, 0.27);
+    font-size: 2rem;
+
+    }
+    .box-customers .cus-row  .col-box-cum .cus-pa{
+        text-align: center;
+        font-size: 1.2rem;
+       font-weight: 450;
+    }
+
+    .box-customers .cus-row  .col-box-cum  .cus-image{
+        display: flex;
+        justify-content: center;
+    }
+    .box-customers .cus-row  .col-box-cum  .cus-image img{
+        border-radius: 50px;
+    }
+    .box-customers .cus-row  .col-box-cum .box-name-cus{
+        display: flex;
+        justify-content: center;
+    }
+    .box-customers .cus-row  .col-box-cum .box-name-cus .name-cus{
+        color:#534F48;
+        font-size: .8rem ;
+        margin-top: 15px;
+        font-family: 'Unna',serif ;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .box-customers .cus-row  .col-box-cum {
+        padding-top: 0;
+    }
+        /* gift card */
+
+    
+    .main-gift {
+        width: 100%;
+        height: 50vh;
+        background-image: url(Image/Background-image1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+       
+    }
+    .main-gift .the-pop{
+      
+       width: 100%;
+       height: 100%;
+       background-color:black;
+       opacity: .5;
+       /* z-index: -1000; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .main-gift .the-pop   .main-box-gift  {
+       /* background-color: black; */
+       
+    }
+    .main-gift .the-pop   .main-box-gift .main-gift-card{
+     
+
+    }
+    .main-gift .the-pop   .main-box-gift   .gift-card{
+        font-size: 1.1rem;
+        font-weight: 200;
+        font-family:  'Unna',serif ;
+        letter-spacing: 1px;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 3rem;
+        /* background-color: black; */
+    }
+
+    .main-gift .the-pop   .main-box-gift   .Give-the-gift .give{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 500;
+        font-family: 'Unna',serif ;
+        letter-spacing: 1px;
+        color: white;
+        line-height: 3rem;
+
+    }
+    .main-gift .the-pop   .main-box-gift .totor .gift-para{
+
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        
+
+    }
+    .main-gift .the-pop   .main-box-gift .purchese{
+        display: flex;
+        justify-content: center;
+    }
+    .main-gift .the-pop   .main-box-gift .purchese input{
+        margin-top: 10px;
+        padding: 13px 35px;
+        font-size: .8rem;
+        font-weight: bold;
+        color: #000;
+        background-color: #ffffff;
+        outline: none;
+        border: none;
+        cursor: pointer;
+       
+        
+    }
+
+     /* the delivery container */
+
+     .last-contain{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .last-contain .box-last-contain .last-col-contain{
+      
+     display: grid;
+     grid-template-rows: auto 1fr;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem;
+
+    }
+    .last-contain .box-last-contain .last-col-contain i{
+        color: white;
+        background-color:#5C9735;
+        width: 40px;
+        height:40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        margin-left: 6rem;
+        margin-bottom: .7rem
+        ;
+        
+    }
+    .last-contain .box-last-contain .last-col-contain .secure{
+        padding: 0 10px;
+    }
+    .last-contain .box-last-contain .last-col-contain .secure .sec{
+        color: black;
+        font-size: 1rem;
+        font-weight: 200;
+        font-family: 'Unna',serif;
+        letter-spacing: 2px;
+        padding: 0;
+        margin: 0;
+        margin-left: 2rem
+        ;
+    }
+    .last-contain .box-last-contain .last-col-contain .secure  .cura{
+        font-size: .9rem;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* the lastest of webpage */
+
+    .box-footer{
+        width: 100%;
+        height: 90vh;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#141A0F;
+    }
+    .box-footer .center-footer{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .box-footer .center-footer .footer-ul{
+        list-style: none;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding: 7rem 3rem 3rem 0; 
+       
+    }
+.box-footer .center-footer .footer-ul .footer-li {
+       
+        margin-left: 3rem;
+} 
+.box-footer .center-footer .footer-ul .footer-li .footer-a{
+        text-decoration: none;
+        font-size: .9rem;
+        font-weight: 100;
+        font-family: 'Unna',serif;
+        color: white;
+       
+
+    }
+    .box-footer .center-footer .footer-h1{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: 'Unna',serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 3.5rem;
+        margin: 0;
+        padding: 0;
+    }
+    .box-footer .center-footer  .footer-input{
+        margin-bottom: 3rem;
+        display: grid;
+        grid-template-rows: auto;
+        
+    }
+    .box-footer .center-footer  .footer-input input[type=text]{
+        width: 100%;
+        height:3.2rem;
+        border-radius: 2px;
+        outline: none;
+        border: none;
+        padding: 0 5px;
+        font-size: 1rem;
+        font-weight: 300;
+        font-family: 'Unna',serif;
+    }
+    .box-footer .center-footer  .footer-input input[type=submit]{
+        padding: 12px 152px;
+        margin-left: 0;
+        background-color: #5C9735;
+        border: none;
+        outline: none;
+        color: white;
+        margin-top: 10px;
+
+    }
+    .box-footer .center-footer  .footer-input input[type=submit]:hover{
+        background-color: grey;
+    }
+    
+    .box-footer .center-footer  .footer-icon{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .box-footer .center-footer  .footer-icon .footer-icon-a i{
+        color: white;
+        margin-left: 2rem;
+        opacity: .7;
+    }
+      /* the line */
+    
+    .box-footer .center-footer  .the-lastest{
+        color: gray;
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5rem;
+        border-top: 1px solid rgba(128, 128, 128, 0.375);
+        padding: 3.5rem 0px 0px 0px;
+        margin: 0;
+    }
+
+    }
+/* Small devices (landscape phones, 576px and up) */
+@media  (min-width: 576px) and (max-width: 767.98px) {
+    .main-header .shadow-back .head .box-row .box-left{
+        
+        display: flex;
+        align-items: center;
+        /* justify-content: space-evenly; */
+        position: relative;
+        /* background-color: red; */
+
+    }
+    .main-header .shadow-back .head .box-row .box-left i{
+        display: block;
+        color: white;
+        font-size: 1.2rem;
+        position: absolute;
+        left: 10%;
+        top: 10px;
+    }
+    .main-header .shadow-back .head .box-row .box-left h1{
+            font-size: 1.5rem;
+            position: absolute;
+            right: 8%;
+            letter-spacing: 2px;
+            color: white;
+
+            /* left: 0; */
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul li a{
+        display: none;
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul li a i{
+        display: block;
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul .right-li i{
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-top: 13px;
+       
+        padding: 0;
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul .right-li .right-a{
+        display: block;
+        margin-top: 10px;
+        margin-right: 5px;
+        font-weight: bold;
+    }
+
+    .col-small-right{
+        display: flex;
+    }
+    .middle-main  .middle-center .welcome .up{
+        color: white;
+        font-size: .9rem;
+        font-weight: 500;
+        font-family:'Unna',serif;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        line-height: 3rem;
+      
+        
+      }
+
+
+    .middle-main  .middle-center .Bring .mid{
+        color: white;
+        font-size: 2.6rem;
+
+        font-family: 'Unna',serif;
+        line-height: 1.1em;
+        font-weight: bold;
+      }
+      .middle-main  .middle-center .Home .down{
+        color: white;
+        font-size:  2.6rem;
+        font-weight: bold;
+        font-family: 'Unna',serif;
+        line-height: 1.1em;
+      }
+
+            /* add items to the page */
+
+            .main-container{
+                display: flex;
+                justify-content: center;
+               padding: 0;
+               margin: 0;
+               margin-left: 0rem;
+               /* background-color: red; */
+                /* background-color: red; */
+            }
+            .main-container .box-row .box-col-first{
+                width: 190px;
+                height:270px;
+               
+            }
+            
+          
+            .main-container .box-row .box-col-first img{
+                width: 100%;
+                height: 100%;
+               
+            }
+            
+        
+            /* Star five */
+            .main-container .box-row .box-col-first .star{
+                width: .8rem;
+                
+                
+            } 
+            .main-container .box-row-2 .box-col-2 .star{
+                width: .8rem;
+              
+            }
+            
+            .main-container .box-row .box-col-first .name-pro{
+                font-size: 1rem;
+                font-family: 'Unna',serif;
+                font-weight: 400;
+            }
+            .main-container .box-row .box-col-first  .place-wear{
+                font-size: .9rem;
+                font-weight: bold;
+                font-family: 'Unna',serif;
+                color: grey;
+                opacity: .8;
+            }
+            .main-container .box-row .box-col-first .price{
+                font-size: 1.1rem;
+                font-weight: 600;
+                font-family: 'Unna',serif;
+                letter-spacing: 1px;
+        
+            }
+
+            /* A Girl with aloe vera */
+
+  .box-girl{
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-top: 8rem;
+    
+}
+.box-girl .the-girl{
+   width: 100%;
+   height: 50vh;
+}
+.box-girl .the-girl img{
+   width: 100%;
+   height: 100%;
+}
+.box-girl .read-more{
+    padding: 15px;
+    padding-left: 1.1rem;
+    padding-right: 4px;
+}
+
+/* content of paragrap */
+
+.box-girl  .read-more .our-story{
+    font-size: .9rem;
+    font-weight: 100;
+    font-family:'Unna',serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.box-girl  .read-more  .people{
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 550;
+    font-family:'Unna',serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+.box-girl  .read-more .viva{
+    font-size: 1.05rem;
+    font-family: 'Unna',serif ;
+    font-weight: 300;
+
+}
+.box-girl  .read-more .eu{
+    font-size: 1.05rem;
+    font-family: 'Unna',serif ;
+    font-weight: 300;
+}
+.box-girl  .read-more  input{
+    margin-top: 2rem;
+    padding: 10px 20px;
+    color:white;
+    background-color: rgba(0, 128, 0, 0.642);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.box-girl  .read-more  input:hover{
+    background-color: #69727d;
+}
+
+.main-gift {
+    width: 100%;
+    height: 40vh;
+    background-image: url(Image/Background-image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+   
+}
+.main-gift .the-pop{
+  
+   width: 100%;
+   height: 100%;
+   background-color:black;
+   opacity: .5;
+   /* z-index: -1000; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main-gift .the-pop   .main-box-gift  {
+   /* background-color: black; */
+   
+}
+.main-gift .the-pop   .main-box-gift .main-gift-card{
+ 
+
+}
+.main-gift .the-pop   .main-box-gift   .gift-card{
+    font-size: 1.1rem;
+    font-weight: 200;
+    font-family:  'Unna',serif ;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 3rem;
+    /* background-color: black; */
+}
+
+.main-gift .the-pop   .main-box-gift   .Give-the-gift .give{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Unna',serif ;
+    letter-spacing: 1px;
+    color: white;
+    line-height: 3rem;
+
+}
+.main-gift .the-pop   .main-box-gift .totor .gift-para{
+
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    
+
+}
+.main-gift .the-pop   .main-box-gift .purchese{
+    display: flex;
+    justify-content: center;
+}
+.main-gift .the-pop   .main-box-gift .purchese input{
+    margin-top: 10px;
+    padding: 13px 35px;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #000;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+   
+    
+}
+ /* the last container of page  */
+
+.last-contain{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-contain .box-last-contain{
+   margin-left: 20%;
+}
+.last-contain .box-last-contain .last-col-contain{
+  
+ display: grid;
+ grid-template-rows: auto 1fr;
+ justify-content: center;
+ align-items: center;
+ padding: 1rem;
+
+}
+.last-contain .box-last-contain .last-col-contain i{
+    color: white;
+    background-color:#5C9735;
+    width: 40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 6rem;
+    margin-bottom: .7rem;
+    
+}
+.last-contain .box-last-contain .last-col-contain .secure{
+    padding: 0 10px;
+}
+.last-contain .box-last-contain .last-col-contain .secure .sec{
+    color: black;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: 'Unna',serif;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+    margin-left: 2rem
+    ;
+}
+.last-contain .box-last-contain .last-col-contain .secure  .cura{
+    font-size: .9rem;
+    margin: 0;
+    padding: 0;
+}
+    }
+    /* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .main-header .shadow-back .head .box-row .box-left{
+        
+        display: flex;
+        align-items: center;
+        /* justify-content: space-evenly; */
+        position: relative;
+        background-color: red;
+
+    }
+    .main-header .shadow-back .head .box-row .box-left i{
+        display: block;
+        color: white;
+        font-size: 1.2rem;
+        position: absolute;
+        left: 20%;
+        top: 10px;
+    }
+    .main-header .shadow-back .head .box-row .box-left h1{
+            font-size: 1.5rem;
+            position: absolute;
+            right: 8%;
+            top: 10px;
+            letter-spacing: 2px;
+            color: white;
+
+            /* left: 0; */
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul li a{
+        display: none;
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul li a i{
+        display: block;
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul .right-li i{
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-top: 13px;
+       
+        padding: 0;
+    }
+    .main-header .shadow-back .head .box-row .box-right{
+      
+        /* background-color: red; */
+    }
+    .main-header .shadow-back .head .box-row .box-right .box-ul {
+        position: absolute;
+        right: 10%;
+        
+    }
+
+    .main-header .shadow-back .head .box-row .box-right .box-ul .right-li .right-a{
+        display: block;
+        margin-top: 10px;
+        margin-right: 5px;
+        font-weight: bold;
+    }
+
+    .col-small-right{
+        display: flex;
+    }
+    .middle-main  .middle-center .welcome .up{
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family:'Unna',serif;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        line-height: 3rem;
+      
+        
+      }
+
+
+    .middle-main  .middle-center .Bring .mid{
+        color: white;
+        font-size: 3rem;
+
+        font-family: 'Unna',serif;
+        line-height: 1.1em;
+        font-weight: bold;
+      }
+      .middle-main  .middle-center .Home .down{
+        color: white;
+        font-size:  3rem;
+        font-weight: bold;
+        font-family: 'Unna',serif;
+        line-height: 1.1em;
+      }
+
+        /* add items to the page */
+
+        .main-container{
+            display: flex;
+            justify-content: center;
+            margin-left: 0;
+            padding: 0;
+            margin-right: 0;
+           /* background-color: red; */
+            /* background-color: red; */
+        }
+        .main-container .box-row{
+            display: flex;
+            justify-content: center;
+        }
+        .main-container .box-row .box-col-first{
+            width: 230px;
+            height:370px;
+           
+        }
+        
+      
+        .main-container .box-row .box-col-first img{
+            width: 100%;
+            height: 100%;
+           
+        }
+        
+    
+        /* Star five */
+        .main-container .box-row .box-col-first .star{
+            width: .8rem;
+            
+            
+        } 
+        .main-container .box-row-2 .box-col-2 .star{
+            width: .8rem;
+          
+        }
+        
+        .main-container .box-row .box-col-first .name-pro{
+            font-size: 1rem;
+            font-family: 'Unna',serif;
+            font-weight: 400;
+        }
+        .main-container .box-row .box-col-first  .place-wear{
+            font-size: .9rem;
+            font-weight: bold;
+            font-family: 'Unna',serif;
+            color: grey;
+            opacity: .8;
+        }
+        .main-container .box-row .box-col-first .price{
+            font-size: 1.1rem;
+            font-weight: 600;
+            font-family: 'Unna',serif;
+            letter-spacing: 1px;
+    
+        }
+                   /* A Girl with aloe vera */
+
+  .box-girl{
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-top: 8rem;
+    /* background-color: red; */
+}
+.box-girl .the-girl{
+   width: 100%;
+   height: 60vh;
+}
+.box-girl .the-girl img{
+   width: 100%;
+   height: 100%;
+}
+.box-girl .read-more{
+    padding: 15px;
+    padding-left: 1.1rem;
+    padding-right: 4px;
+}
+
+/* content of paragrap */
+
+.box-girl  .read-more .our-story{
+    font-size: .9rem;
+    font-weight: 100;
+    font-family:'Unna',serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.box-girl  .read-more  .people{
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 550;
+    font-family:'Unna',serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+.box-girl  .read-more .viva{
+    font-size: 1.05rem;
+    font-family: 'Unna',serif ;
+    font-weight: 300;
+
+}
+.box-girl  .read-more .eu{
+    font-size: 1.05rem;
+    font-family: 'Unna',serif ;
+    font-weight: 300;
+}
+.box-girl  .read-more  input{
+    margin-top: 2rem;
+    padding: 10px 20px;
+    color:white;
+    background-color: rgba(0, 128, 0, 0.642);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.box-girl  .read-more  input:hover{
+    background-color: #69727d;
+}
+
+.main-gift {
+    width: 100%;
+    height: 40vh;
+    background-image: url(Image/Background-image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+   
+}
+.main-gift .the-pop{
+  
+   width: 100%;
+   height: 100%;
+   background-color:black;
+   opacity: .5;
+   /* z-index: -1000; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main-gift .the-pop   .main-box-gift  {
+   /* background-color: black; */
+   
+}
+.main-gift .the-pop   .main-box-gift .main-gift-card{
+ 
+
+}
+.main-gift .the-pop   .main-box-gift   .gift-card{
+    font-size: 1.1rem;
+    font-weight: 200;
+    font-family:  'Unna',serif ;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 3rem;
+    /* background-color: black; */
+}
+
+.main-gift .the-pop   .main-box-gift   .Give-the-gift .give{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Unna',serif ;
+    letter-spacing: 1px;
+    color: white;
+    line-height: 3rem;
+
+}
+.main-gift .the-pop   .main-box-gift .totor .gift-para{
+
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    
+
+}
+.main-gift .the-pop   .main-box-gift .purchese{
+    display: flex;
+    justify-content: center;
+}
+.main-gift .the-pop   .main-box-gift .purchese input{
+    margin-top: 10px;
+    padding: 13px 35px;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #000;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+   
+    
+}
+ /* the last container of page  */
+
+.last-contain{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.last-contain .box-last-contain{
+   /* margin-left: 15%; */
+}
+.last-contain .box-last-contain .last-col-contain{
+  
+ display: grid;
+ grid-template-columns: auto 1fr;
+ 
+ padding: 1rem;
+
+}
+.last-contain .box-last-contain .last-col-contain i{
+    color: white;
+    background-color:#5C9735;
+    width: 40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 1rem;
+    margin-bottom: .7rem;
+    
+}
+.last-contain .box-last-contain .last-col-contain .secure{
+    padding: 0 2px;
+}
+.last-contain .box-last-contain .last-col-contain .secure .sec{
+    color: black;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: 'Unna',serif;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+    margin-left: 0rem
+    ;
+}
+.last-contain .box-last-contain .last-col-contain .secure  .cura{
+    font-size: .9rem;
+    margin: 0;
+    padding: 0;
+}
+
+    }
+    /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* add items to the page */
+
+    .main-container{
+        display: flex;
+        justify-content:center;
+       padding: 0;
+       margin: 0;
+       margin-left: 5rem;
+       /* background-color: red; */
+        /* background-color: red; */
+    }
+    .main-container .box-row .box-col-first{
+        width: 300px;
+        height:400px;
+       
+    }
+    
+  
+    .main-container .box-row .box-col-first img{
+        width: 100%;
+        height: 100%;
+       
+    }
+    
+
+    /* Star five */
+    .main-container .box-row .box-col-first .star{
+        width: .8rem;
+        
+        
+    } 
+    .main-container .box-row-2 .box-col-2 .star{
+        width: .8rem;
+      
+    }
+    
+    .main-container .box-row .box-col-first .name-pro{
+        font-size: 1rem;
+        font-family: 'Unna',serif;
+        font-weight: 400;
+    }
+    .main-container .box-row .box-col-first  .place-wear{
+        font-size: .9rem;
+        font-weight: bold;
+        font-family: 'Unna',serif;
+        color: grey;
+        opacity: .8;
+    }
+    .main-container .box-row .box-col-first .price{
+        font-size: 1.1rem;
+        font-weight: 600;
+        font-family: 'Unna',serif;
+        letter-spacing: 1px;
+
+    }
+    .box-girl{
+        display: block;
+        padding: 0;
+        margin: 0;
+        margin-top: 8rem;
+        /* background-color: red; */
+    }
+    .box-girl .the-girl{
+       width: 30rem;
+       height: 60vh;
+    }
+    .box-girl .the-girl img{
+       width: 100%;
+       height: 100%;
+    }
+    .box-girl .read-more{
+        padding: 15px;
+        padding-left: 1.1rem;
+        padding-right: 4px;
+    }
+    
+    /* content of paragrap */
+    
+    .box-girl  .read-more .our-story{
+        font-size: .9rem;
+        font-weight: 100;
+        font-family:'Unna',serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .box-girl  .read-more  .people{
+        color: black;
+        padding: 0;
+        margin: 0;
+        font-size: 1.4rem;
+        font-weight: 550;
+        font-family:'Unna',serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        line-height: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .box-girl  .read-more .viva{
+        font-size: 1.05rem;
+        font-family: 'Unna',serif ;
+        font-weight: 300;
+    
+    }
+    .box-girl  .read-more .eu{
+        font-size: 1.05rem;
+        font-family: 'Unna',serif ;
+        font-weight: 300;
+    }
+    .box-girl  .read-more  input{
+        margin-top: 2rem;
+        padding: 10px 20px;
+        color:white;
+        background-color: rgba(0, 128, 0, 0.642);
+        outline: none;
+        border: none;
+        color: white;
+        font-size: .9rem;
+        font-weight: 600;
+    }
+    .box-girl  .read-more  input:hover{
+        background-color: #69727d;
+    }
+    
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ /* add items to the page */
+
+ .main-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 7rem;
+   /* background-color: red; */
+    /* background-color: red; */
+}
+.main-container .box-row .box-col-first{
+    width: 370px;
+    height:600px;
+   
+}
+
+
+.main-container .box-row .box-col-first img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+/* Star five */
+.main-container .box-row .box-col-first .star{
+    width: .8rem;
+    
+    
+} 
+.main-container .box-row-2 .box-col-2 .star{
+    width: .8rem;
+  
+}
+
+.main-container .box-row .box-col-first .name-pro{
+    font-size: 1rem;
+    font-family: 'Unna',serif;
+    font-weight: 400;
+}
+.main-container .box-row .box-col-first  .place-wear{
+    font-size: .9rem;
+    font-weight: bold;
+    font-family: 'Unna',serif;
+    color: grey;
+    opacity: .8;
+}
+.main-container .box-row .box-col-first .price{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Unna',serif;
+    letter-spacing: 1px;
+
+}
+    
+}
